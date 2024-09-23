@@ -21,7 +21,7 @@ class account
     //In case of single holder account
     account(string accholdername,int bal,string typeofacc,string pc)
     {
-        account_number = rand()%100000 + 1000000000;
+        account_number = rand()%1000 + 1000;
         name_of_account_holder = accholdername;
         balance = bal;
         type_of_account = typeofacc;
@@ -31,7 +31,7 @@ class account
     //In case of multiple holder account
     account(string accholdername,string jointholdername,int bal,string typeofacc,string pc)
     {
-        account_number = rand()%100000 + 1000000000;
+        account_number = rand()%1000 + 1000;
         name_of_account_holder = accholdername;
         name_of_joint_account_holder = jointholdername;
         balance = bal;
